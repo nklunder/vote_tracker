@@ -1,4 +1,5 @@
 body {
+  text-align: center;
   color: #21211;
   width: 90%;
   max-width: 60rem;
@@ -6,6 +7,10 @@ body {
 }
 
 h1 {
-  text-align: center;
   font-family: 'Bree Serif', serif;
+}
+
+img {
+  margin-left: 1rem;
+  width: 12rem;
 }
