@@ -1,10 +1,10 @@
 // create empty array to hold kitten objects
 var kittensArr = [];
 // generate kitten objects with reference to photos
-for (var i = 0; i < 13; i++) {
+for (var i = 1; i <= 13; i++) {
   var kitten = {
     id: i,
-    imgUrl: './images/cat' + (i + 1) + '.jpg',
+    imgUrl: './images/cat' + i + '.jpg',
     votes: 0
   };
   // push the newly created kitten object into the main array
